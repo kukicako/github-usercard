@@ -84,8 +84,9 @@ function createStudent(info){
 
 //---------appends-------------//
 card.appendChild(picture);
-card.classList.add('person');
-picture.src = info.avatar_url
+card.classList.add('card');
+picture.src = info.avatar_url;
+
 
 
 card.appendChild(cardInfo);
